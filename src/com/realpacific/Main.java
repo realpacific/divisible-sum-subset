@@ -15,7 +15,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) {
-        Integer[] input = new Integer[]{1, 2, 3, 4, 5};
+        Integer[] input = new Integer[]{4, 5, 0, -2, -3, 1};
         int divisor = 5;
 
         Generator<Integer> gen = new SubsetGenerator(Arrays.asList(input));
